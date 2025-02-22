@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for consistent layout */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: inline-block;
+   
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e05b50;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.about h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Column Layout for About Section */
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.column {
+    flex: 1;
+}
+
+.column img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Services Section Styles */
+.services {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.service-box {
+    flex: 1;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .service-box {
+        margin-bottom: 20px;
+    }
+}
